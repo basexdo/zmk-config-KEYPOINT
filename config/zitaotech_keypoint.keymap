@@ -17,6 +17,21 @@
 #define MOUSE 3
 #define BOT bootloader
 
+
+&mt {
+    flavor = "tap-preferred";	//优先识别为点击而非长按
+    tapping-term-ms = <260>;            // 默认200ms，可据需要调整   判断“敲击”和“长按”的关键时间阈值。值越大，需等待更长时间才能判断是长按
+    quick-tap-ms = <216>;               // 设置快速点按窗口          判断“快速敲击”的时间窗口。值越大，认为是快速敲击的时间就越长。
+    global-quick-tap;                   // 启用全局快速点按功能
+    hold-trigger-on-release;            // 在释放时才触发长按
+    require-prior-idle-ms = <350>;      // 值越大，快速输入时hold越不易被激发
+};
+
+&sk { release-after-ms = <3000>; };
+
+
+
+
 / {
     behaviors {
         td0: tap_dance_0 {
