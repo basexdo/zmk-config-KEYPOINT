@@ -90,7 +90,7 @@
 
         Combos2LayerX {
             bindings = <&none>;
-            key-positions = <47 46>;
+            key-positions = <47 48>;
         };
     };
 
