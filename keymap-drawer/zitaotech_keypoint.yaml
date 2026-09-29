@@ -344,4 +344,4 @@ layers:
   - '`'
 combos:
 - p: [47, 48]
-  k: ''
+  k: SYMBOL

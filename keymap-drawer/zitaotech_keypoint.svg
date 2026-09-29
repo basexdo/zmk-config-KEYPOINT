@@ -400,7 +400,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 346)" class="layer-NUMBER">
@@ -643,7 +645,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 692)" class="layer-MOUSE">
@@ -853,7 +857,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1038)" class="layer-SYMBOL">
@@ -1077,7 +1083,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1384)" class="layer-Fn">
@@ -1313,7 +1321,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1730)" class="layer-oriMOUSE">
@@ -1559,7 +1569,9 @@ path.combo {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="324" y="227" width="28" height="26" class="combo"/>
-</g>
+<a href="#SYMBOL">
+<text x="338" y="240" class="combo tap layer-activator">SYMBOL</text>
+</a></g>
 </g>
 </g>
 </svg>
