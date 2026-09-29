@@ -17,7 +17,6 @@
 #define MOUSE 3
 #define BOT bootloader
 
-
 &mt {
     flavor = "tap-preferred";	//优先识别为点击而非长按
     tapping-term-ms = <260>;            // 默认200ms，可据需要调整   判断“敲击”和“长按”的关键时间阈值。值越大，需等待更长时间才能判断是长按
@@ -28,9 +27,6 @@
 };
 
 &sk { release-after-ms = <3000>; };
-
-
-
 
 / {
     behaviors {
@@ -104,7 +100,7 @@
         compatible = "zmk,combos";
 
         Combos2LayerX {
-            bindings = <&none>;
+            bindings = <&mo 3>;
             key-positions = <47 48>;
         };
     };
