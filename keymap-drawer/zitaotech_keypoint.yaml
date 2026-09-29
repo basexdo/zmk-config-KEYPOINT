@@ -1,11 +1,11 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY:
-  - {t: TAB, h: ESC}
-  - Q
-  - W
-  - E
-  - R
+  - {t: TAB, h: LEFT ALT}
+  - {t: Q, h: Alt+1}
+  - {t: W, h: Alt+2}
+  - {t: E, h: Sft+Alt+Gui+E}
+  - {t: R, h: Ctl+Y}
   - T
   - Y
   - U
@@ -13,12 +13,12 @@ layers:
   - O
   - P
   - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
+  - LEFT SHIFT
+  - {t: A, h: Ctl+A}
+  - {t: S, h: Alt+3}
+  - {t: D, h: Sft+Alt+Gui+D}
+  - {t: F, h: Ctl+F}
+  - {t: G, h: Ctl+G}
   - '&mkp LCLK'
   - '&mkp LCLK'
   - H
@@ -26,13 +26,13 @@ layers:
   - K
   - L
   - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - ''''
+  - LEFT CONTROL
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
+  - {t: B, h: Ctl+B}
   - PG DN
   - PG UP
   - '&msc SCRL_DOWN'
@@ -47,77 +47,191 @@ layers:
   - LGUI
   - LALT
   - MUTE
-  - RAISE
-  - SPACE
-  - LOWER
-  - LOWER
-  - SPACE
-  - RAISE
+  - {t: SPACE, h: Fn}
+  - {t: SPACE, h: NUMBER}
+  - {t: ENTER, h: MOUSE}
+  - {t: ENTER, h: Fn}
+  - {t: SPACE, h: SYMBOL}
+  - RIGHT SHIFT
   - MUTE
-  - '-'
-  - '='
-  - '`'
-  LOWER:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DEL
+  - RIGHT ALT
+  - RIGHT SHIFT
+  - RCTRL
+  NUMBER:
+  - BACKSPACE
+  - {t: '1', h: Gui+1}
+  - {t: '2', h: Gui+2}
+  - {t: '3', h: Gui+3}
+  - {t: '4', h: Gui+4}
+  - {t: '5', h: Gui+5}
+  - Hyper+C
+  - Gui+Alt+Z
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESCAPE
+  - {t: '0', h: Gui+0}
+  - {t: '9', h: Gui+9}
+  - {t: '8', h: Gui+8}
+  - {t: '7', h: Gui+7}
+  - {t: '6', h: Gui+6}
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - CAPS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - ENTER
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '''', h: ;}
+  - {t: ',', h: .}
+  - {t: '-', h: /}
+  - {t: '[', h: ']'}
+  - {t: (, h: )}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bl BL_DEC'
   - '&bl BL_INC'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+Sft+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - NUBS
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - '&bootloader'
-  - BT CLR
-  - {t: ▽, type: trans}
-  - SPACE
-  - {t: LOWER, type: held}
-  - LOWER
-  - SPACE
-  - {t: MOUSE, h: toggle}
-  - OUT TOG
-  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RAISE:
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MOUSE:
+  - BACKSPACE
+  - DEL
+  - {t: INSERT, h: Alt+INSERT}
+  - Gui+E
+  - Gui+R
+  - '&PrintScreen2FastStone'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - LEFT
+  - UP
+  - DOWN
+  - RIGHT
+  - END
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Y, h: P}
+  - '&mkp MB4'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB5'
+  - Alt+END
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  SYMBOL:
+  - BACKSPACE
+  - {t: '!', h: '`'}
+  - {t: '@', h: '~'}
+  - {t: '*', h: '#'}
+  - {t: '&', h: $}
+  - {t: '%', h: ^}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: /, h: \}
+  - {t: '"', h: ''''}
+  - {t: ., h: ','}
+  - {t: '-', h: _}
+  - {t: '=', h: +}
+  - {t: ':', h: ;}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: '{', h: '}'}
+  - {t: '[', h: ']'}
+  - {t: <, h: '>'}
+  - {t: (, h: )}
+  - {t: '?', h: '|'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Fn:
   - ESC
   - F1
-  - UP
+  - F2
   - F3
   - F4
   - F5
@@ -126,52 +240,52 @@ layers:
   - F8
   - F9
   - F10
-  - ''
-  - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
   - F11
+  - Hyper+C
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT USB
+  - OUT BLE
+  - PRINTSCREEN
   - F12
-  - ''
-  - ''
-  - ''
-  - ''
-  - LSHFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+F4
+  - Ctl+W
+  - '&sys_reset'
+  - '&bootloader'
+  - Gui+Alt+Z
+  - Ctl+Sft+B
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - LCTRL
-  - LGUI
-  - ''
-  - ''
-  - {t: RAISE, type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - RAISE
-  - ''
-  - ''
-  - ''
-  - ''
-  MOUSE:
+  - '&bootloader'
+  - '&sys_reset'
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  oriMOUSE:
   - TAB
   - Q
   - W
@@ -218,15 +332,16 @@ layers:
   - LGUI
   - LALT
   - ''
-  - RAISE
+  - SYMBOL
   - SPACE
   - '&mkp MB1'
   - '&mkp MB1'
   - '&tdRMCLK'
-  - RAISE
+  - SYMBOL
   - MUTE
   - '-'
   - '='
   - '`'
-  RESERVE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+combos:
+- p: [47, 46]
+  k: ''
