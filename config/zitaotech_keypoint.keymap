@@ -117,10 +117,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&kp BACKSPACE  &kp DEL   &mt LA(INSERT) INSERT  &kp LG(E)        &kp LG(R)  &PrintScreen2FastStone  &none  &none  &none  &none  &none  &none
-&kp HOME       &kp LEFT  &kp UP                 &kp DOWN         &kp RIGHT  &kp END                 &none  &none  &none  &none  &none  &none  &none  &none
-&mt P Y        &mkp MB4  &msc SCRL_LEFT         &msc SCRL_RIGHT  &mkp MB5   &kp LA(END)             &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none          &none     &none                  &none            &none      &none                   &none  &none  &none  &none  &none  &none  &none  &none
+&kp BACKSPACE  &kp DEL   &mt LA(INSERT) INSERT  &kp LG(E)        &kp LG(R)  &PrintScreen2FastStone  &none   &none  &none  &none  &none  &none
+&kp HOME       &kp LEFT  &kp UP                 &kp DOWN         &kp RIGHT  &kp END                 &none   &none  &none  &none  &none  &none  &none  &none
+&mt P Y        &mkp MB4  &msc SCRL_LEFT         &msc SCRL_RIGHT  &mkp MB5   &kp LA(END)             &none   &none  &none  &none  &none  &none  &none  &none  &none  &none
+&trans         &trans    &trans                 &trans           &trans     &trans                  &trans  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -128,7 +128,7 @@
             bindings = <
 &kp BACKSPACE        &mt GRAVE EXCLAMATION           &mt TILDE AT_SIGN               &mt HASH ASTERISK           &mt DOLLAR AMPERSAND                    &mt CARET PERCENT    &none   &none   &none   &none   &none   &none
 &mt BACKSLASH SLASH  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt COMMA PERIOD                &mt UNDERSCORE MINUS        &mt PLUS EQUAL                          &mt SEMICOLON COLON  &none   &none   &none   &none   &none   &none   &none   &none
-&sk LSHIFT           &mt RIGHT_BRACE LEFT_BRACE      &mt RIGHT_BRACKET LEFT_BRACKET  &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none                &none   &none   &none   &none   &none   &none   &none   &none   &none  &none
+&sk LSHIFT           &mt RIGHT_BRACE LEFT_BRACE      &mt RIGHT_BRACKET LEFT_BRACKET  &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt PIPE QUESTION    &none   &none   &none   &none   &none   &none   &none   &none   &none  &none
 &trans               &trans                          &trans                          &trans                      &trans                                  &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
