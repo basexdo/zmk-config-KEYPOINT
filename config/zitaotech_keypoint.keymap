@@ -79,15 +79,15 @@
             display-name = "QWERTY";
             bindings = <
 &mt LEFT_ALT TAB  &mt LA(N1) Q  &mt LA(N2) W  &mt LS(LA(LG(E))) E  &mt LC(Y) R  &kp T        &kp Y      &kp U      &kp I           &kp O         &kp P       &kp BSPC
-&kp LEFT_SHIFT    &mt LC(A) A   &mt LA(N3) S  &mt LS(LA(LG(D))) D  &mt LC(F) F  &mt LC(G) G  &mkp LCLK  &mkp LCLK  &kp H           &kp J         &kp K       &kp L      &kp SEMI   &kp SQT
-&kp LEFT_CONTROL  &mt LC(Z) Z   &mt LC(X) X   &mt LC(C) C          &mt LC(V) V  &mt LC(B) B  &kp PG_DN  &kp PG_UP  &msc SCRL_DOWN  &msc SCRL_UP  &kp N       &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
-&kp LCTRL         &kp LGUI      &kp LALT      &kp C_MUTE           &mo 2        &kp SPACE    &mo 1      &mo 1      &kp SPACE       &mo 2         &kp C_MUTE  &kp MINUS  &kp EQUAL  &kp GRAVE
+&kp LEFT_SHIFT    &mt LC(A) A   &mt LA(N3) S  &mt LS(LA(LG(D))) D  &mt LC(F) F  &mt LC(G) G  &mkp LCLK  &mkp LCLK  &kp H           &kp J         &kp K       &kp L          &kp SEMI         &kp SQT
+&kp LEFT_CONTROL  &mt LC(Z) Z   &mt LC(X) X   &mt LC(C) C          &mt LC(V) V  &mt LC(B) B  &kp PG_DN  &kp PG_UP  &msc SCRL_DOWN  &msc SCRL_UP  &kp N       &kp M          &kp COMMA        &kp DOT    &kp FSLH  &kp RSHFT
+&kp LCTRL         &kp LGUI      &kp LALT      &kp C_MUTE           &mo 2        &lt 1 SPACE  &mo 1      &mo 1      &kp SPACE       &mo 2         &kp C_MUTE  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp UP DOWN>;
         };
 
-        lower_layer {
+        number_layer {
             display-name = "NUMBER";
             bindings = <
 &kp BACKSPACE  &mt LG(N1) N1               &mt LG(N2) N2     &mt LG(N3) N3    &mt LG(N4) N4                   &mt LG(N5) N5                           &kp LG(LC(LS(LA(C))))  &kp LG(LA(Z))  &trans      &trans      &trans  &trans
@@ -96,7 +96,9 @@
 &trans         &trans                      &trans            &trans           &trans                          &trans                                  &trans                 &trans         &trans      &trans      &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp LC(PLUS) LC(MINUS)>,
+                <&inc_dec_kp UP DOWN>;
         };
 
         raise_layer {
