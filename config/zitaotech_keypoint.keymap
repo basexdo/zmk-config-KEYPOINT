@@ -116,10 +116,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&kp BACKSPACE  &kp DEL  &mt LA(INSERT) INSERT  &kp LG(E)  &kp LG(R)  &none  &none  &none  &none  &none  &none  &none
-&none          &none    &none                  &none      &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none          &none    &none                  &none      &none      &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none          &none    &none                  &none      &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp BACKSPACE  &kp DEL   &mt LA(INSERT) INSERT  &kp LG(E)        &kp LG(R)  &PrintScreen2FastStone  &none  &none  &none  &none  &none  &none
+&kp HOME       &kp LEFT  &kp UP                 &kp DOWN         &kp RIGHT  &kp END                 &none  &none  &none  &none  &none  &none  &none  &none
+&mt P Y        &mkp MB4  &msc SCRL_LEFT         &msc SCRL_RIGHT  &mkp MB5   &kp LA(END)             &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none          &none     &none                  &none            &none      &none                   &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
