@@ -126,10 +126,10 @@
 
         symbol_layer {
             bindings = <
-&kp BACKSPACE        &mt GRAVE EXCLAMATION           &mt TILDE AT_SIGN  &mt HASH ASTERISK     &mt DOLLAR AMPERSAND  &mt CARET PERCENT    &trans  &trans  &trans  &trans  &trans  &trans
-&mt BACKSLASH SLASH  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt COMMA PERIOD   &mt UNDERSCORE MINUS  &mt PLUS EQUAL        &mt SEMICOLON COLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans                          &trans             &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans                          &trans             &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSPACE        &mt GRAVE EXCLAMATION           &mt TILDE AT_SIGN               &mt HASH ASTERISK           &mt DOLLAR AMPERSAND                    &mt CARET PERCENT    &none   &none   &none   &none   &none   &none
+&mt BACKSLASH SLASH  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt COMMA PERIOD                &mt UNDERSCORE MINUS        &mt PLUS EQUAL                          &mt SEMICOLON COLON  &none   &none   &none   &none   &none   &none   &none   &none
+&sk LSHIFT           &mt RIGHT_BRACE LEFT_BRACE      &mt RIGHT_BRACKET LEFT_BRACKET  &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none                &none   &none   &none   &none   &none   &none   &none   &none   &none  &none
+&trans               &trans                          &trans                          &trans                      &trans                                  &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "SYMBOL";
