@@ -137,10 +137,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&kp BACKSPACE  &kp DEL   &mt LA(INSERT) INSERT  &kp LG(E)        &kp LG(R)  &PrintScreen2FastStone  &none   &none  &none  &none  &none  &none
-&kp HOME       &kp LEFT  &kp UP                 &kp DOWN         &kp RIGHT  &kp END                 &none   &none  &none  &none  &none  &none  &none  &none
-&mt P Y        &mkp MB4  &msc SCRL_LEFT         &msc SCRL_RIGHT  &mkp MB5   &kp LA(END)             &none   &none  &none  &none  &none  &none  &none  &none  &none  &none
-&trans         &trans    &trans                 &trans           &trans     &trans                  &trans  &none  &none  &none  &none  &none  &none  &none
+&kp BACKSPACE  &kp DEL   &mt LA(INSERT) INSERT  &kp LG(E)        &kp LG(R)  &PrintScreen2FastStone  &none   &none  &none     &none     &none     &none
+&kp HOME       &kp LEFT  &kp UP                 &kp DOWN         &kp RIGHT  &kp END                 &none   &none  &mkp MB1  &mkp MB3  &mkp MB2  &none  &none  &none
+&mt P Y        &mkp MB4  &msc SCRL_LEFT         &msc SCRL_RIGHT  &mkp MB5   &kp LA(END)             &none   &none  &none     &none     &none     &none  &none  &none  &none  &none
+&trans         &trans    &trans                 &trans           &trans     &trans                  &trans  &none  &none     &none     &none     &none  &none  &none
             >;
         };
 
@@ -161,7 +161,7 @@
 &kp ESC                &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10       &kp F11
 &kp LG(LC(LS(LA(C))))  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4   &none   &none   &none   &none   &out OUT_USB  &out OUT_BLE  &kp PRINTSCREEN  &kp F12
 &kp LA(F4)             &kp LC(W)     &sys_reset    &bootloader   &kp LG(LA(Z))  &kp LC(LS(B))  &none   &none   &none   &none   &none         &none         &bootloader      &sys_reset  &kp SCROLLLOCK  &kp PAUSE_BREAK
-&trans                 &trans        &trans        &trans        &trans         &trans         &trans  &trans  &trans  &trans  &trans        &trans        &trans           &trans
+&trans                 &trans        &trans        &trans        &trans         &trans         &trans  &trans  &trans  &trans  &trans        &trans        &bt BT_CLR_ALL   &bt BT_CLR
             >;
         };
 
