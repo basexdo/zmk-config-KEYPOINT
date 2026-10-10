@@ -66,8 +66,8 @@ layers:
   - {t: '5', h: Gui+5}
   - Hyper+C
   - Gui+Alt+Z
-  - ''
-  - ''
+  - Sft+[
+  - ']'
   - ''
   - ''
   - ESCAPE
@@ -78,10 +78,10 @@ layers:
   - {t: '6', h: Gui+6}
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - ''
-  - ''
-  - ''
-  - ''
+  - '-'
+  - '='
+  - (
+  - )
   - ''
   - ''
   - CAPS
@@ -94,10 +94,10 @@ layers:
   - {t: ▽, type: trans}
   - '&bl BL_DEC'
   - '&bl BL_INC'
-  - ''
-  - ''
-  - ''
-  - ''
+  - _
+  - +
+  - '{'
+  - '}'
   - ''
   - Ctl+Sft+B
   - {t: ▽, type: trans}
