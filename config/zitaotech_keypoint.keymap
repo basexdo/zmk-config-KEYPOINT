@@ -123,10 +123,10 @@
         number_layer {
             display-name = "NUMBER";
             bindings = <
-&kp BACKSPACE  &mt LG(N1) N1               &mt LG(N2) N2     &mt LG(N3) N3    &mt LG(N4) N4                   &mt LG(N5) N5                           &kp LG(LC(LS(LA(C))))  &kp LG(LA(Z))  &kp LS(LBKT)  &kp RBKT    &none           &none
-&kp ESCAPE     &mt LG(N0) N0               &mt LG(N9) N9     &mt LG(N8) N8    &mt LG(N7) N7                   &mt LG(N6) N6                           &mkp RCLK              &mkp RCLK      &kp MINUS     &kp EQUAL   &kp LPAR        &kp RPAR  &none     &none
-&kp CAPS       &mt SEMICOLON SINGLE_QUOTE  &mt PERIOD COMMA  &mt SLASH MINUS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &trans                 &trans         &bl BL_DEC    &bl BL_INC  &kp UNDERSCORE  &kp PLUS  &kp LBRC  &kp RBRC  &none  &kp LC(LS(B))
-&trans         &trans                      &trans            &trans           &trans                          &trans                                  &trans                 &trans         &trans        &trans      &trans          &trans    &trans    &trans
+&kp BACKSPACE  &mt LG(N1) N1               &mt LG(N2) N2     &mt LG(N3) N3    &mt LG(N4) N4                   &mt LG(N5) N5                           &kp LG(LC(LS(LA(C))))  &kp LG(LA(Z))  &kp LBRC    &kp RBRC    &none           &none
+&kp ESCAPE     &mt LG(N0) N0               &mt LG(N9) N9     &mt LG(N8) N8    &mt LG(N7) N7                   &mt LG(N6) N6                           &mkp RCLK              &mkp RCLK      &kp MINUS   &kp EQUAL   &kp LPAR        &kp RPAR  &none     &none
+&kp CAPS       &mt SEMICOLON SINGLE_QUOTE  &mt PERIOD COMMA  &mt SLASH MINUS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &trans                 &trans         &bl BL_DEC  &bl BL_INC  &kp UNDERSCORE  &kp PLUS  &kp LBKT  &kp RBKT  &none  &kp LC(LS(B))
+&trans         &trans                      &trans            &trans           &trans                          &trans                                  &trans                 &trans         &trans      &trans      &trans          &trans    &trans    &trans
             >;
 
             sensor-bindings =
@@ -146,10 +146,10 @@
 
         symbol_layer {
             bindings = <
-&kp BACKSPACE        &mt GRAVE EXCLAMATION           &mt TILDE AT_SIGN               &mt HASH ASTERISK           &mt DOLLAR AMPERSAND                    &mt CARET PERCENT    &none   &none   &none   &none   &none   &none
-&mt BACKSLASH SLASH  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt COMMA PERIOD                &mt UNDERSCORE MINUS        &mt PLUS EQUAL                          &mt SEMICOLON COLON  &none   &none   &none   &none   &none   &none   &none   &none
-&sk LSHIFT           &mt RIGHT_BRACE LEFT_BRACE      &mt RIGHT_BRACKET LEFT_BRACKET  &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt PIPE QUESTION    &none   &none   &none   &none   &none   &none   &none   &none   &none  &none
-&trans               &trans                          &trans                          &trans                      &trans                                  &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSPACE        &mt GRAVE EXCLAMATION           &mt TILDE AT_SIGN               &mt HASH ASTERISK           &mt DOLLAR AMPERSAND                    &mt CARET PERCENT    &none   &none   &kp LBRC   &kp RBRC   &none      &none
+&mt BACKSLASH SLASH  &mt SINGLE_QUOTE DOUBLE_QUOTES  &mt COMMA PERIOD                &mt UNDERSCORE MINUS        &mt PLUS EQUAL                          &mt SEMICOLON COLON  &none   &none   &kp MINUS  &kp EQUAL  &kp LPAR   &kp RPAR  &none     &none
+&sk LSHIFT           &mt RIGHT_BRACE LEFT_BRACE      &mt RIGHT_BRACKET LEFT_BRACKET  &mt GREATER_THAN LESS_THAN  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt PIPE QUESTION    &none   &none   &none      &none      &kp UNDER  &kp PLUS  &kp LBKT  &kp RBKT  &kp BACKSLASH  &none
+&trans               &trans                          &trans                          &trans                      &trans                                  &trans               &trans  &trans  &trans     &trans     &trans     &trans    &trans    &trans
             >;
 
             label = "SYMBOL";
