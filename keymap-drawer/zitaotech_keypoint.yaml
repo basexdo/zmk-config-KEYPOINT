@@ -135,9 +135,9 @@ layers:
   - END
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - ''
   - ''
   - ''
@@ -283,8 +283,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
   oriMOUSE:
   - TAB
   - Q
