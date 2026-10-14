@@ -50,12 +50,12 @@ layers:
   - {t: SPACE, h: Fn}
   - {t: SPACE, h: NUMBER}
   - {t: ENTER, h: MOUSE}
-  - {t: ENTER, h: Fn}
+  - {t: ENTER, h: MOUSE}
   - {t: SPACE, h: SYMBOL}
   - RIGHT SHIFT
   - MUTE
   - RIGHT ALT
-  - RIGHT SHIFT
+  - Fn
   - RCTRL
   NUMBER:
   - BACKSPACE
