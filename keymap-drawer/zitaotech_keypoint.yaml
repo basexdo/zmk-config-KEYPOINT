@@ -33,8 +33,8 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - {t: B, h: Ctl+B}
-  - PG DN
-  - PG UP
+  - VOL DN
+  - VOL UP
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - N
