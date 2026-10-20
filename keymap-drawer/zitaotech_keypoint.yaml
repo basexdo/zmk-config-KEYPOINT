@@ -196,7 +196,7 @@ layers:
   - '='
   - (
   - )
-  - ''
+  - {t: \, h: '|'}
   - ''
   - {t: LSHIFT, h: sticky}
   - {t: '{', h: '}'}
@@ -212,7 +212,7 @@ layers:
   - +
   - '['
   - ']'
-  - \
+  - {t: '`', h: '~'}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,63 +285,63 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   - BT CLR
-  oriMOUSE:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - {t: U, h: '&mkp MB3'}
-  - I
-  - O
-  - P
-  - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - H
-  - {t: J, h: '&mkp MB1'}
-  - K
-  - L
-  - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - ''
-  - ''
-  - N
-  - {t: M, h: '&mkp MB2'}
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - LALT
-  - ''
-  - SYMBOL
-  - SPACE
+  Mouse2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB4'
+  - '&mkp MB5'
   - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&tdRMCLK'
-  - SYMBOL
-  - MUTE
-  - '-'
-  - '='
-  - '`'
+  - '&mkp MB5'
+  - '&mkp MB4'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [47, 48]
   k: SYMBOL
