@@ -68,8 +68,8 @@ layers:
   - Gui+Alt+Z
   - '{'
   - '}'
-  - ''
-  - ''
+  - PAGE UP
+  - PAGE DOWN
   - ESCAPE
   - {t: '0', h: Gui+0}
   - {t: '9', h: Gui+9}
@@ -129,8 +129,8 @@ layers:
   - ''
   - HOME
   - LEFT
-  - UP
   - DOWN
+  - UP
   - RIGHT
   - END
   - ''
@@ -249,7 +249,7 @@ layers:
   - {t: BT, h: '4'}
   - ''
   - ''
-  - ''
+  - '&bl BL_TOG'
   - ''
   - OUT USB
   - OUT BLE
@@ -265,7 +265,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&bl BL_CYCLE'
   - ''
   - '&bootloader'
   - '&sys_reset'
@@ -303,7 +303,7 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&mkp MB1'
-  - ''
+  - PAGE UP
   - ''
   - ''
   - ''
@@ -314,18 +314,18 @@ layers:
   - ''
   - ''
   - '&mkp MB4'
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - '&mkp MB5'
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - '&mkp MB5'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB5'
-  - ''
-  - ''
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
   - '&mkp MB4'
   - ''
   - {t: ▽, type: trans}
