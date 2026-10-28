@@ -165,19 +165,19 @@
         fn_layer {
             display-name = "Fn";
             bindings = <
-&kp ESC                &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7  &kp F8      &kp F9  &kp F10       &kp F11
-&kp LG(LC(LS(LA(C))))  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4   &none   &none   &bl BL_TOG  &none   &out OUT_USB  &out OUT_BLE  &kp PRINTSCREEN  &kp F12
-&kp LA(F4)             &kp LC(W)     &sys_reset    &bootloader   &kp LG(LA(Z))  &kp LC(LS(B))  &none   &none   &none       &none   &bl BL_CYCLE  &none         &bootloader      &sys_reset  &kp SCROLLLOCK  &kp PAUSE_BREAK
-&trans                 &trans        &trans        &trans        &trans         &trans         &trans  &trans  &trans      &trans  &trans        &trans        &bt BT_CLR_ALL   &bt BT_CLR
+&kp ESC                &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7  &kp F8      &kp F9      &kp F10       &kp F11
+&kp LG(LC(LS(LA(C))))  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4   &none   &none   &bl BL_TOG  &bl BL_INC  &out OUT_USB  &out OUT_BLE  &kp PRINTSCREEN  &kp F12
+&kp LA(F4)             &kp LC(W)     &sys_reset    &bootloader   &kp LG(LA(Z))  &kp LC(LS(B))  &none   &none   &none       &none       &bl BL_CYCLE  &bl BL_DEC    &bootloader      &sys_reset  &kp SCROLLLOCK  &kp PAUSE_BREAK
+&trans                 &trans        &trans        &trans        &trans         &trans         &trans  &trans  &trans      &trans      &trans        &trans        &bt BT_CLR_ALL   &bt BT_CLR
             >;
         };
 
         MOUSE_2 {
             bindings = <
-&none   &msc SCRL_LEFT  &none            &mkp MB3           &msc SCRL_RIGHT  &none          &none   &msc SCRL_LEFT  &mkp MB3  &none     &msc SCRL_RIGHT  &none
-&none   &mkp MB2        &msc SCRL_DOWN   &msc SCRL_UP       &mkp MB1         &kp PAGE_UP    &none   &none           &none     &mkp MB1  &msc SCRL_UP     &msc SCRL_DOWN  &mkp MB2         &none
-&none   &mkp MB4        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &mkp MB5         &kp PAGE_DOWN  &none   &none           &none     &none     &none            &mkp MB5        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &mkp MB4  &none
-&trans  &trans          &trans           &trans             &trans           &trans         &trans  &trans          &trans    &trans    &trans           &trans          &trans           &trans
+&none   &msc SCRL_LEFT  &none            &mkp MB3           &msc SCRL_RIGHT  &none          &none   &msc SCRL_LEFT  &mkp MB3    &none       &msc SCRL_RIGHT  &none
+&none   &mkp MB2        &msc SCRL_DOWN   &msc SCRL_UP       &mkp MB1         &kp PAGE_UP    &none   &none           &none       &mkp MB1    &msc SCRL_UP     &msc SCRL_DOWN  &mkp MB2         &none
+&none   &mkp MB4        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &mkp MB5         &kp PAGE_DOWN  &none   &none           &bl BL_DEC  &bl BL_INC  &none            &mkp MB5        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &mkp MB4  &none
+&trans  &trans          &trans           &trans             &trans           &trans         &trans  &trans          &trans      &trans      &trans           &trans          &trans           &trans
             >;
 
             label = "Mouse2";
