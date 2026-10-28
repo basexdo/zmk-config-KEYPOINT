@@ -250,7 +250,7 @@ layers:
   - ''
   - ''
   - '&bl BL_TOG'
-  - ''
+  - '&bl BL_INC'
   - OUT USB
   - OUT BLE
   - PRINTSCREEN
@@ -266,7 +266,7 @@ layers:
   - ''
   - ''
   - '&bl BL_CYCLE'
-  - ''
+  - '&bl BL_DEC'
   - '&bootloader'
   - '&sys_reset'
   - SCROLLLOCK
@@ -320,8 +320,8 @@ layers:
   - PAGE DOWN
   - ''
   - ''
-  - ''
-  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - ''
   - '&mkp MB5'
   - Ctl+PAGE UP
